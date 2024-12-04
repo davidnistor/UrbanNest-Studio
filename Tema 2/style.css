@@ -1,0 +1,308 @@
+body {
+    background-image: url(Imagini/bg22.jpg);
+    margin: 0;
+}
+
+hr {
+    border-width: 0px;
+    border-style: inset;
+    background-color: #55604e;
+    color: #55604e;
+    height: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 2.5vw;
+    color: #bfd0b6;
+    font-family: "Pridi", cursive;
+    margin:0;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 2vw;
+    color: #9dad9d;
+    padding-left: 10px;
+    font-family: "Pridi", cursive;
+    border: 0.1em solid #78866B;
+    margin-left: 15em;
+    margin-right: 15em;
+    background-color: #324236;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Pridi", cursive;
+}
+
+img {
+    border: solid 2px rgb(11, 108, 50);
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+p {
+    font-size: 3VH;
+    margin: 2vh;
+}
+
+a {
+    color: green;
+}
+
+li {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    padding:0 1vw 1vw 1vw;
+    gap:1vw;
+}
+
+.container img {
+    text-align: center;
+    width: 100%;
+
+}
+
+.container p {
+    padding: 30px;
+
+}
+
+.container h3 {
+    color: rgba(12, 111, 58, 0.788);
+    text-align: center;
+}
+
+.aligncenter {
+    text-align: center;
+    align-items: center;
+}
+.alignitem{
+    align-items:center;
+}
+.marginright {
+    margin-right: 2vw;
+}
+
+.latime50 {
+
+    max-width: 50%;
+}
+
+.card {
+
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgba(64, 131, 94, 0.567);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex: 1;
+    margin: 10px;
+}
+
+.card li {
+    text-align: start;
+}
+
+.card p {
+    padding: 30px;
+    margin-top: auto;
+    text-align: start;
+}
+
+.card img {
+    width: 80%;
+    object-fit: cover;
+    margin-top: 2vh;
+}
+
+nav {
+    background-color: #d0d9cd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1vh solid #78866B;
+    border-radius: 10px;
+    margin: 0.5vw;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0.5vh;
+    font-family: "Pridi", cursive;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Pridi", cursive;
+}
+nav p{
+    padding-left: 0;
+    font-size: 3.5vw;
+    color: #55604e;
+    font-family: "Pridi", cursive;
+    margin:0;
+    font-weight: bold;
+}
+
+nav li {
+    background: #a9ba9d;
+    margin: 0 1vw 0 0;
+    border-radius: 5px;
+    font-family: "Pridi", cursive;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    white-space: nowrap;
+    color: black;
+    font-family: "Pridi", cursive;
+}
+
+footer {
+    border-top: solid 0.3vh #324236;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    background-color: #8a9a7a;
+}
+
+footer img {
+    border: 0;
+    object-fit: contain;
+    height: 3.5vh;
+    padding: 1.5vh;
+
+}
+
+footer ul {
+    list-style-type: circle;
+}
+
+footer ul li {
+    margin: 1vh;
+}
+
+footer p {
+    font-size: 1vw;
+}
+
+.imagini-next-eachother {
+    display: flex;
+    gap: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    font-size: 2vw;
+    background-color: #a9ba9d;
+    margin: 2VW;
+    
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.p-personalizat{
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: start;
+    margin:0;
+    padding: 0%;
+}
+
+.strong {
+    font-weight: bold;
+}
+.border{
+    border:0.1vw solid #55604e;
+}
+.acordeon ul {
+    display: none;
+}
+
+.acordeon:hover ul {
+    display: block;
+}
+.logo {
+    height: 3vw;
+    width: auto;
+    border: 0;
+    margin:0;
+    padding:1vw;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.map{
+    border: 0.3vw solid #55604e; 
+    margin:0 0 3vw 3vw;
+}
+.image-container25 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0vw 1vw 1vw 1vw; 
+    width: 98%; 
+    overflow: hidden; 
+}
+.image-container50 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0vw 1vw 1vw 1vw; 
+    width: 98%; 
+    overflow: hidden; 
+}
+.image-container25 img {
+    flex: 1; 
+    max-width: calc(25% - 0.5vw); 
+    height: auto; 
+    border: 2px solid #55604e; 
+    border-radius: 5px; 
+    object-fit: cover; 
+}
+.image-container50 img {
+    flex: 1; 
+    max-width: calc(50% - 0.5vw); 
+    height: auto; 
+    border: 2px solid #55604e; 
+    border-radius: 5px; 
+    object-fit: cover; 
+}
+.titlucadran {
+     
+    background-color: #526b59;  
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin: 1vw 4vw 1vw 4vw; 
+    border-radius: 5px; 
+    border: 2px solid #55604e; 
+    text-align: center;
+ 
+}
+.important{
+    font-size:1.5vw ;
+    text-align: center;
+    margin:1vw 8vw 1vw 8vw;
+}
