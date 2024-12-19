@@ -117,6 +117,17 @@
             .margincar{
                 margin: 0 5px 0px 5px;
             }
+            .marginimg{
+                margin-top: 10px;
+            }
+            .carouselmic h2{
+                
+                   font-size: 15px;
+                
+            }
+            .carouselmic p{
+                font-size: 10px;
+            }
         }
         @media (min-width: 992px) /*desktop*/{ 
             .margincar{
@@ -126,6 +137,9 @@
          @media (min-width: 768px) /*TABLETA*/ { 
             .margincar{
                 margin: 0 15px 0 15px;
+            }
+            .p0{
+                padding: 0 !important;
             }
          }
     </style>
@@ -179,7 +193,7 @@
                         <img src="imagini/Carusel1.jpg.jpeg" class="d-block w-100"
                             alt="paletă de culori si diferite tipuri de material">
                     </div>
-                    <div class="carousel-caption shadow d-none d-md-block">
+                    <div class="carousel-caption shadow carouselmic d-md-block">
                         <h2>UrbanNest Studio</h2>
                         <p>Design care inspiră, spații care îți reflectă personalitatea.</p>
                     </div>
@@ -189,7 +203,7 @@
                         <img src="imagini/Carusel2.jpg" class="d-block w-100"
                             alt="livingoroom spațios și frumos luminat">
                     </div>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption carouselmic d-md-block">
                         <h2>UrbanNest Studio</h2>
                         <p>Transformăm fiecare colț al casei tale într-o poveste unică.</p>
                     </div>
@@ -198,7 +212,7 @@
                     <div class=" ratio ratio-21x9">
                         <img src="imagini/Carusel3.jpg" class="d-block w-100" alt="schema pe hârtie a unei case">
                     </div>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption carouselmic d-md-block">
                         <h2>UrbanNest Studio</h2>
                         <p>Estetica întâlnește funcționalitatea în proiectele noastre.</p>
                     </div>
@@ -207,7 +221,7 @@
                     <div class=" ratio ratio-21x9">
                         <img src="imagini/Carusel4.jpg" class="d-block w-100" alt="o bibliotecă cu cărți colorate">
                     </div>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption carouselmic d-md-block">
                         <h2>UrbanNest Studio</h2>
                         <p>Acasă e mai mult decât un loc – e o stare de bine.</p>
                     </div>
@@ -217,7 +231,7 @@
                         <img src="imagini/Carusel5.jpg" class="d-block w-100"
                             alt="o masă la care se discută planul unei case">
                     </div>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption carouselmic d-md-block">
                         <h2>UrbanNest Studio</h2>
                         <p>Detalii fine, rezultate impresionante.</p>
                     </div>
@@ -234,12 +248,12 @@
         </div>
     </div>
     <!--Carusel-->
-    <div class="container-fluid text-center">
+    <div class="container-fluid align-it text-center">
         <div class="row">
             <h2 class="text-start p-3">Despre UrbanNest Studio</h2>
         </div>
         <div class="row m-1 justify-content-start">
-            <div class="textbg text-start col-12 col-md-6 col-lg-7">
+            <div class="textbg text-start col-12 col-md-12 col-lg-7">
                 <p>Salut! Sunt Andrei Stănescu, fondator și designer principal la UrbanNest Studio. Am
                     peste zece ani de
                     experiență în designul interior, fiind pasionat de crearea unor spații contemporane care îmbină
@@ -280,8 +294,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="align-content-end col-md-6 col-lg-5">
-                <img class="w-100 pb-3 pt-sm-3 mt-lg-0" src="imagini/m(3).jpg" alt="Portret Andrei Stănescu">
+            <div class="p0 marginimg  col-md-12 col-lg-5">
+                <img class="w-100 ms-lg-2 pt-sm-3 mb-lg-2 " src="imagini/m(3).jpg" alt="Portret Andrei Stănescu">
                 <!--NU MEERGE SA DAU PADD PE ECRAN MIC-->
             </div>
         </div>
