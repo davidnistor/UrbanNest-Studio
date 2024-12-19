@@ -31,7 +31,7 @@
         }
 
         body {
-            background-color: #4B5945;
+            background-color: #47663B;
             font-family: "Tinos", serif;
             font-weight: 400;
             font-style: normal;
@@ -109,6 +109,25 @@
         .mapborder {
             border: 2px solid black;
         }
+
+        @media (max-width: 700px) /*TELEFON*/{ 
+            h1 {
+                font-size: 15px !important;
+            }
+            .margincar{
+                margin: 0 5px 0px 5px;
+            }
+        }
+        @media (min-width: 992px) /*desktop*/{ 
+            .margincar{
+                margin: 0 20px 0 20px;
+            }
+         }
+         @media (min-width: 768px) /*TABLETA*/ { 
+            .margincar{
+                margin: 0 15px 0 15px;
+            }
+         }
     </style>
 
 </head>
@@ -117,7 +136,7 @@
     <header class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
         <nav class="container-fluid">
             <h1 class="navbar-brand"><a class="nav-link" href="#carusel"><img src="imagini/logo.png"
-                        alt="logo-ul firmei UrbanNest Studio" width="35" height="30"
+                        alt="logo-ul firmei UrbanNest Studio" width="30"
                         class="d-inline-block align-text-start me-2">UrbanNest Studio</a></h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -144,74 +163,76 @@
     </header>
 
     <!--Carusel-->
-    <div id="carusel" class="carousel carousel-dark slide carousel-fade">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carusel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <div class=" margincar">
+        <div id="carusel" class="carousel carousel-dark slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carusel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class=" ratio ratio-21x9">
+                        <img src="imagini/Carusel1.jpg.jpeg" class="d-block w-100"
+                            alt="paletă de culori si diferite tipuri de material">
+                    </div>
+                    <div class="carousel-caption shadow d-none d-md-block">
+                        <h2>UrbanNest Studio</h2>
+                        <p>Design care inspiră, spații care îți reflectă personalitatea.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=" ratio ratio-21x9">
+                        <img src="imagini/Carusel2.jpg" class="d-block w-100"
+                            alt="livingoroom spațios și frumos luminat">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>UrbanNest Studio</h2>
+                        <p>Transformăm fiecare colț al casei tale într-o poveste unică.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=" ratio ratio-21x9">
+                        <img src="imagini/Carusel3.jpg" class="d-block w-100" alt="schema pe hârtie a unei case">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>UrbanNest Studio</h2>
+                        <p>Estetica întâlnește funcționalitatea în proiectele noastre.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=" ratio ratio-21x9">
+                        <img src="imagini/Carusel4.jpg" class="d-block w-100" alt="o bibliotecă cu cărți colorate">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>UrbanNest Studio</h2>
+                        <p>Acasă e mai mult decât un loc – e o stare de bine.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=" ratio ratio-21x9">
+                        <img src="imagini/Carusel5.jpg" class="d-block w-100"
+                            alt="o masă la care se discută planul unei case">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>UrbanNest Studio</h2>
+                        <p>Detalii fine, rezultate impresionante.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner ">
-            <div class="carousel-item active">
-                <div class=" ratio ratio-21x9">
-                    <img src="imagini/Carusel1.jpg.jpeg" class="d-block w-100"
-                        alt="paletă de culori si diferite tipuri de material">
-                </div>
-                <div class="carousel-caption shadow d-none d-md-block">
-                    <h2>UrbanNest Studio</h2>
-                    <p>Design care inspiră, spații care îți reflectă personalitatea.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class=" ratio ratio-21x9">
-                    <img src="imagini/Carusel2.jpg" class="d-block w-100" alt="livingoroom spațios și frumos luminat">
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>UrbanNest Studio</h2>
-                    <p>Transformăm fiecare colț al casei tale într-o poveste unică.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class=" ratio ratio-21x9">
-                    <img src="imagini/Carusel3.jpg" class="d-block w-100" alt="schema pe hârtie a unei case">
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>UrbanNest Studio</h2>
-                    <p>Estetica întâlnește funcționalitatea în proiectele noastre.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class=" ratio ratio-21x9">
-                    <img src="imagini/Carusel4.jpg" class="d-block w-100" alt="o bibliotecă cu cărți colorate">
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>UrbanNest Studio</h2>
-                    <p>Acasă e mai mult decât un loc – e o stare de bine.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class=" ratio ratio-21x9">
-                    <img src="imagini/Carusel5.jpg" class="d-block w-100"
-                        alt="o masă la care se discută planul unei case">
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>UrbanNest Studio</h2>
-                    <p>Detalii fine, rezultate impresionante.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-</div>
     <!--Carusel-->
     <div class="container-fluid text-center">
         <div class="row">
@@ -357,75 +378,76 @@
         </div>
     </div>
     <div class="g-2 p-2 m-2">
-    <div class=" mt-3 container-fluid text-align-center textbg"> <!--OVERFLOW?-->
+        <div class=" mt-3 container-fluid text-align-center textbg"> <!--OVERFLOW?-->
 
-        <div class="row justify-content-around ">
+            <div class="row justify-content-around ">
 
-            <div class="col-12">
-                <h2 class="text-center">Pachete promoționale</h2>
-                <p class="text-center">Fiecare client are nevoi și așteptări unice. UrbanNest Studio oferă pachete
-                    personalizate pentru a
-                    asigura o
-                    experiență adaptată dorințelor tale, indiferent de amploarea sau complexitatea proiectului.</p>
-            </div>
-            <div class="p-3 cardbg m-sm-2 col-10 col-md-6 col-lg-3">
-                <h3 class="text-center">Pachet Basic</h3>
-                <strong>Include:</strong>
-                <ul>
+                <div class="col-12">
+                    <h2 class="text-center">Pachete promoționale</h2>
+                    <p class="text-center">Fiecare client are nevoi și așteptări unice. UrbanNest Studio oferă pachete
+                        personalizate pentru a
+                        asigura o
+                        experiență adaptată dorințelor tale, indiferent de amploarea sau complexitatea proiectului.</p>
+                </div>
+                <div class="p-3 cardbg m-sm-2 col-10 col-md-6 col-lg-3">
+                    <h3 class="text-center">Pachet Basic</h3>
+                    <strong>Include:</strong>
+                    <ul>
 
-                    <li>Consultanță inițială.</li>
-                    <li>Realizarea unui plan 2D al spațiului.</li>
-                    <li>Propunere de mobilare și design.</li>
-                    <li>Ghid de culori și materiale recomandate.</li>
-                </ul>
-                <strong>Beneficii:</strong>
-                <ul>
+                        <li>Consultanță inițială.</li>
+                        <li>Realizarea unui plan 2D al spațiului.</li>
+                        <li>Propunere de mobilare și design.</li>
+                        <li>Ghid de culori și materiale recomandate.</li>
+                    </ul>
+                    <strong>Beneficii:</strong>
+                    <ul>
 
-                    <li>
-                        Ideal pentru spații mici sau proiecte cu buget redus.</li>
-                    <li>Timp de livrare rapid: 3-5 zile lucrătoare.</li>
-                    <li>Preț: Începând de la 500 RON.</li>
-                </ul>
-            </div>
-            <div class="p-3 cardbg m-sm-2 col-10 col-md-6 col-lg-3">
-                <h3 class="text-center">Pachet Premium</h3>
+                        <li>
+                            Ideal pentru spații mici sau proiecte cu buget redus.</li>
+                        <li>Timp de livrare rapid: 3-5 zile lucrătoare.</li>
+                        <li>Preț: Începând de la 500 RON.</li>
+                    </ul>
+                </div>
+                <div class="p-3 cardbg m-sm-2 col-10 col-md-6 col-lg-3">
+                    <h3 class="text-center">Pachet Premium</h3>
 
-                <strong>Include:</strong>
-                <ul>
-                    <li>Consultanță personalizată (2 ore).</li>
-                    <li>Plan 2D detaliat și schițe de design.</li>
-                    <li>O randare 3D profesională a spațiului.</li>
-                    <li>Recomandări pentru mobilier și finisaje.</li>
-                    <li>Până la 2 runde de modificări gratuite.</li>
-                </ul>
+                    <strong>Include:</strong>
+                    <ul>
+                        <li>Consultanță personalizată (2 ore).</li>
+                        <li>Plan 2D detaliat și schițe de design.</li>
+                        <li>O randare 3D profesională a spațiului.</li>
+                        <li>Recomandări pentru mobilier și finisaje.</li>
+                        <li>Până la 2 runde de modificări gratuite.</li>
+                    </ul>
 
-                <strong>Beneficii:</strong>
-                <ul>
-                    <li>Potrivit pentru apartamente întregi sau birouri mici.</li>
-                    <li>Claritate vizuală prin randări profesionale.</li>
-                    <li>Preț: Începând de la 1500 RON.</li>
-                </ul>
-            </div>
-            <div class="p-3 cardbg m-sm-2 col-10 col-md-6 col-lg-3">
-                <h3 class="text-center">Pachet All-Inclusive <span class="mb-1 badge text-bg-danger">Nou!</span></h3>
-                <strong>Include:</strong>
-                <ul>
+                    <strong>Beneficii:</strong>
+                    <ul>
+                        <li>Potrivit pentru apartamente întregi sau birouri mici.</li>
+                        <li>Claritate vizuală prin randări profesionale.</li>
+                        <li>Preț: Începând de la 1500 RON.</li>
+                    </ul>
+                </div>
+                <div class="p-3 cardbg m-sm-2 col-10 col-md-6 col-lg-3">
+                    <h3 class="text-center">Pachet All-Inclusive <span class="mb-1 badge text-bg-danger">Nou!</span>
+                    </h3>
+                    <strong>Include:</strong>
+                    <ul>
 
-                    <li>
-                        Consultanță extinsă (3 ore).</li>
-                    <li>Realizarea planurilor 2D și randărilor 3D pentru fiecare cameră.</li>
-                    <li>Ghid personalizat de cumpărături (mobilier, decorațiuni, etc.).</li>
-                    <li>Până la 5 runde de modificări gratuite.</li>
-                </ul>
-                <strong>Beneficii:</strong>
-                <ul>
-                    <li>Ideal pentru proiecte rezidențiale complexe sau spații comerciale.</li>
-                    <li>Consultanță constantă pentru a garanta un rezultat impecabil.</li>
-                    <li>Preț: Începând de la 3000 RON.</li>
-                </ul>
+                        <li>
+                            Consultanță extinsă (3 ore).</li>
+                        <li>Realizarea planurilor 2D și randărilor 3D pentru fiecare cameră.</li>
+                        <li>Ghid personalizat de cumpărături (mobilier, decorațiuni, etc.).</li>
+                        <li>Până la 5 runde de modificări gratuite.</li>
+                    </ul>
+                    <strong>Beneficii:</strong>
+                    <ul>
+                        <li>Ideal pentru proiecte rezidențiale complexe sau spații comerciale.</li>
+                        <li>Consultanță constantă pentru a garanta un rezultat impecabil.</li>
+                        <li>Preț: Începând de la 3000 RON.</li>
+                    </ul>
+                </div>
             </div>
         </div>
-</div>
     </div>
     <h2 id="portofoliu" class="text-center">Portofoliu</h2>
     <p class="text-center"><strong>Spații care inspiră. Proiecte care impresionează.</strong></p>
