@@ -27,7 +27,7 @@
             font-family: "Michroma", sans-serif;
             font-weight: 400;
             font-style: normal;
-            font-size:25px !important;
+            font-size: 25px !important;
         }
 
         body {
@@ -97,11 +97,17 @@
         .carousel-item p {
             font-size: 20px;
         }
+
         .smalltext {
-            font-size:  15px !important;
+            font-size: 15px !important;
         }
-        .nav-item a{
-            font-size:18px !important;
+
+        .nav-item a {
+            font-size: 18px !important;
+        }
+
+        .mapborder {
+            border: 2px solid black;
         }
     </style>
 
@@ -110,8 +116,9 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
         <nav class="container-fluid">
-            <h1 class="navbar-brand"><a class="nav-link" href="#carusel"><img src="imagini/logo.png" alt="logo-ul firmei UrbanNest Studio" width="35" height="30"
-                        class="d-inline-block align-text-center me-2">UrbanNest Studio</a></h1>
+            <h1 class="navbar-brand"><a class="nav-link" href="#carusel"><img src="imagini/logo.png"
+                        alt="logo-ul firmei UrbanNest Studio" width="35" height="30"
+                        class="d-inline-block align-text-start me-2">UrbanNest Studio</a></h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -128,14 +135,13 @@
                         <a class="nav-link" href="#portofoliu">Portofoliu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
     </header>
-
 
     <!--Carusel-->
     <div id="carusel" class="carousel carousel-dark slide carousel-fade">
@@ -205,6 +211,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+</div>
     <!--Carusel-->
     <div class="container-fluid text-center">
         <div class="row">
@@ -349,8 +356,11 @@
             </div>
         </div>
     </div>
-    <div class=" mt-3 container-fluid text-align-center textbg m-3"> <!--OVERFLOW?-->
-        <div class="row justify-content-around m-3 g-2 p-2">
+    <div class="g-2 p-2 m-2">
+    <div class=" mt-3 container-fluid text-align-center textbg"> <!--OVERFLOW?-->
+
+        <div class="row justify-content-around ">
+
             <div class="col-12">
                 <h2 class="text-center">Pachete promoționale</h2>
                 <p class="text-center">Fiecare client are nevoi și așteptări unice. UrbanNest Studio oferă pachete
@@ -415,10 +425,12 @@
                 </ul>
             </div>
         </div>
+</div>
     </div>
     <h2 id="portofoliu" class="text-center">Portofoliu</h2>
     <p class="text-center"><strong>Spații care inspiră. Proiecte care impresionează.</strong></p>
-    <p class="text-center">La <strong>UrbanNest Studio</strong>, fiecare proiect este o călătorie creativă în care transformăm spațiile
+    <p class="text-center">La <strong>UrbanNest Studio</strong>, fiecare proiect este o călătorie creativă în care
+        transformăm spațiile
         obișnuite în locuri
         memorabile. De la locuințe elegante până la birouri funcționale, ne concentrăm pe detalii și pe o estetică care
         să reflecte personalitatea și dorințele fiecărui client. Explorează mai jos o selecție a celor mai recente
@@ -427,20 +439,23 @@
         <div class="row justify-content-around">
             <div class="col-12 col-md-6 col-lg-6">
                 <img class="w-100" src="Imagini/Baie.jpg" alt="Baia unui imobil modern decorat">
-                <p class="smalltext">O baie modernă, cu finisaje elegante: pereți din ceramică în tonuri neutre, lavoar pe blat flotant,
+                <p class="smalltext">O baie modernă, cu finisaje elegante: pereți din ceramică în tonuri neutre, lavoar
+                    pe blat flotant,
                     oglindă iluminată cu LED-uri, cadă freestanding sau cabină de duș cu sticlă clară, accente metalice
                     negre sau cromate și decor minimalist cu plante verzi.</p>
             </div>
             <div class="col-12 col-md-6 col-lg-6">
                 <img class="w-100" src="Imagini/Livingroom.jpeg" alt="Un livingroom modern decorat">
-                <p class="smalltext">Living modern, cu mobilier minimalist, canapea confortabilă, accente din lemn, covor texturat,
+                <p class="smalltext">Living modern, cu mobilier minimalist, canapea confortabilă, accente din lemn,
+                    covor texturat,
                     iluminare
                     ambientală și plante verzi pentru o atmosferă primitoare.</p>
             </div>
 
             <div class="col-6 col-md-3 col-lg-3">
                 <img class="w-100" src="Imagini/interior-living.jpg" alt="Un design al unui livingroom modern">
-                <p class="smalltext" >Un living luminos, dominat de texturi naturale, cu pereți și mobilier din lemn deschis la
+                <p class="smalltext">Un living luminos, dominat de texturi naturale, cu pereți și mobilier din lemn
+                    deschis la
                     culoare,
                     ferestre mari ce lasă să pătrundă lumina naturală, o canapea neutră și accente vegetale pentru
                     un
@@ -448,20 +463,23 @@
             </div>
             <div class="col-6 col-md-3 col-lg-3">
                 <img class="w-100" src="Imagini/architecture-.jpg" alt="Viziunea unei încăperi la etaj">
-                <p class="smalltext">Bucătărie deschisă spre living, cu insulă centrală, mobilier minimalist și un geam mare ce
+                <p class="smalltext">Bucătărie deschisă spre living, cu insulă centrală, mobilier minimalist și un geam
+                    mare ce
                     conectează
                     spațiul cu o grădină internă plină de lumină naturală.</p>
             </div>
             <div class="col-6 col-md-3 col-lg-3">
                 <img class="w-100" src="Imagini/kitchen.jpg" alt="Bucătaria modernă vazută din față">
-                <p class="smalltext">Bucătărie albă modernă, cu design minimalist, finisaje lucioase și linii curate. Scările
+                <p class="smalltext">Bucătărie albă modernă, cu design minimalist, finisaje lucioase și linii curate.
+                    Scările
                     elegante, din
                     lemn sau metal, se integrează perfect, conducând spre etaj și adăugând un aer sofisticat
                     spațiului.</p>
             </div>
             <div class="col-6 col-md-3 col-lg-3">
                 <img class="w-100" src="Imagini/interior-kitchen.jpg" alt="O bucătărie luxuriantă și albă">
-                <p class="smalltext" >Bucătărie albă elegantă, cu suprafețe din marmură lucioasă și detalii din sticlă. Feroneriile
+                <p class="smalltext">Bucătărie albă elegantă, cu suprafețe din marmură lucioasă și detalii din sticlă.
+                    Feroneriile
                     moderne și
                     vitrajele mari creează un spațiu luminos, iar combinația dintre marmură și sticlă adaugă un aer
                     rafinat
@@ -473,33 +491,45 @@
 
 
     </div>
-    <h2 class="text-center">Contactează-ne!</h2>
-    <p>Pentru colaborări, proiecte personalizate sau întrebări legate de serviciile noastre, te invităm
+    <h2 id="contact" class="text-center">Contactează-ne!</h2>
+
+    <p class="text-center">Pentru colaborări, proiecte personalizate sau întrebări legate de serviciile noastre, te
+        invităm
         să ne
         contactezi. UrbanNest Studio este dedicat să aducă viziunea ta la viață
         prin design contemporan și soluții inovatoare.</p>
-    <h2>Unde ne găsești?</h2>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.6476308623814!2d23.60477417583613!3d46.771841645248614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c2321652047%3A0x26c7a15ac3b3be71!2sFacultatea%20de%20%C8%98tiin%C8%9Be%20Politice%2C%20Administrative%20%C8%99i%20ale%20Comunic%C4%83rii!5e0!3m2!1sro!2sro!4v1733222157737!5m2!1sro!2sro"
-        width="800" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <p>Suntem aici să te ajutăm să transformi spațiul tău într-un loc perfect pentru tine! Fie că ai o
-        întrebare, dorești să afli mai multe despre serviciile noastre sau ești pregătit să începi un proiect,
-        ne poți contacta oricând. Lasă-ne un mesaj folosind formularul de mai jos sau contactează-ne direct prin
-        telefon sau email. Așteptăm cu nerăbdare să lucrăm împreună!</p>
-    <p>Ne găsești la:</p>
-    <ul>
+    <h2 class="text-center">Unde ne găsești?</h2>
+    <div class="m-2 p-2 g-2">
+        <div class="container-fluid textbg">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-8 col-lg-6 mapborder p-0 "><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.6476308623814!2d23.60477417583613!3d46.771841645248614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c2321652047%3A0x26c7a15ac3b3be71!2sFacultatea%20de%20%C8%98tiin%C8%9Be%20Politice%2C%20Administrative%20%C8%99i%20ale%20Comunic%C4%83rii!5e0!3m2!1sro!2sro!4v1733222157737!5m2!1sro!2sro"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="col-12 col-md-4 col-lg-6 ">
+                    <p>Suntem aici să te ajutăm să transformi spațiul tău într-un loc perfect pentru tine! Fie că ai o
+                        întrebare, dorești să afli mai multe despre serviciile noastre sau ești pregătit să începi un
+                        proiect,
+                        ne poți contacta oricând. Lasă-ne un mesaj folosind formularul de mai jos sau contactează-ne
+                        direct
+                        prin
+                        telefon sau email. Așteptăm cu nerăbdare să lucrăm împreună!</p>
+                    <p>Ne găsești la:</p>
+                    <ul>
 
-        <li><strong>Telefon:</strong> 0700000000;</li>
-        <li><strong>Email:</strong> UrbanNestStudios@gmail.com;</li>
-        <li><strong>Adresă:</strong> Strada Tisei număr 32-34;</li>
-    </ul>
-    <p>Ore de lucru</p>
-    <ul>
+                        <li><strong>Telefon:</strong> 0700000000;</li>
+                        <li><strong>Email:</strong> UrbanNestStudios@gmail.com;</li>
+                        <li><strong>Adresă:</strong> Strada Tisei număr 32-34;</li>
+                    </ul>
+                    <p>Ore de lucru</p>
+                    <ul>
 
-        <li><strong>Luni-Vineri:</strong>8:00-18:00</li>
-        <li><strong>Sâmbătă:</strong>10:00-16:00</li>
-
+                        <li><strong>Luni-Vineri:</strong>8:00-18:00</li>
+                        <li><strong>Sâmbătă:</strong>10:00-16:00</li>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
